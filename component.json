@@ -1,0 +1,29 @@
+{
+  "name": "modal",
+  "repo": "heatroom/modal",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "A simple modal UI component.",
+  "keywords": [
+    "modal", 
+    "ui", 
+    "overlay"
+  ],
+  "dependencies": {
+    "component/classes": "*",
+    "component/domify": "*",
+    "component/emitter": "*",
+    "component/event": "*",
+    "ianstormtaylor/redraw": "*",
+    "heatroom/overlay": "*",
+    "yields/after-transition": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "segmentio/on-enter": "*"
+  },
+  "scripts": ["index.js"],
+  "styles": ["modal.css"],
+  "templates": ["template.html"],
+  "main": "index.js"
+}

@@ -1,0 +1,1 @@
+module.exports = '<div class="modal-wrapper hidden">\n  <div class="modal hidden">\n    <a class="modal-close-button"></a>\n  </div>\n</div>';
